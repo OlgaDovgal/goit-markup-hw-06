@@ -786,6 +786,10 @@ body {
 .footer-social-pages-item {
   width: 40px;
   height: 40px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 .footer-social-link {
   display: flex;
@@ -838,17 +842,15 @@ body {
   color: #ffffff;
 }
 .footer-btn {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: center;
-
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
+
+  display: flex;
+  gap: 16px;
 
   padding: 8px 24px;
   border-radius: 4px;
